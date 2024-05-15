@@ -300,6 +300,18 @@ html, body {
     margin: 0 0 15px;
 }
 
+.skill .strong {
+    font-weight: 700;
+}
+
+.skill.gray {
+    color: #999;
+}
+
+.skill.gray .progress-bar {
+    background-color: #999;
+}
+
 .progress {
     height: 15px;
     margin-bottom: 0;
@@ -361,6 +373,11 @@ html, body {
 /* Section: Portfolio */
 .section-portfolio {
     padding-bottom: 120px;
+}
+
+.section-portfolio .zibrasport {
+    height: auto;
+    padding-top: 100px;
 }
 
 .portfolio-item {
