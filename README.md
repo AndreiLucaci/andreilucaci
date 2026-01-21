@@ -3,7 +3,7 @@
 ## Founding Engineer · Software Architect · Tech Lead  
 `.NET (C#) · Node (TS) · React · Cloud · Kubernetes`
 
-> “Try not to become a man of success, but rather try to become a man of value.” — Albert Einstein  
+> “Try not to become a man of success, but rather try to become a man of value. He is considered successful in our day who gets more out of life than he puts in. But a man of value will give more than he receives.” — Albert Einstein  
 
 ---
 
