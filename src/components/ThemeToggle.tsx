@@ -7,11 +7,11 @@ function applyTheme(theme: Theme) {
     document.documentElement.dataset.theme = theme
     document
         .querySelector('meta[name="theme-color"]')
-        ?.setAttribute('content', theme === 'dark' ? '#2d353b' : '#f4f3ed')
+        ?.setAttribute('content', theme === 'dark' ? '#171e1e' : '#e8e2d3')
 }
 
 export function ThemeToggle() {
-    const [theme, setTheme] = useState<Theme>('light')
+    const [theme, setTheme] = useState<Theme>('dark')
 
     useEffect(() => {
         const saved = localStorage.getItem('theme')
@@ -19,9 +19,7 @@ export function ThemeToggle() {
         const initial: Theme =
             saved === 'light' || saved === 'dark'
                 ? saved
-                : media.matches
-                  ? 'dark'
-                  : 'light'
+                : 'dark'
         setTheme(initial)
         applyTheme(initial)
 

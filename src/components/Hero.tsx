@@ -34,6 +34,17 @@ export function Hero() {
                 <p className="location">
                     Software engineering through AEL Engineering
                 </p>
+                <div className="hero-console" aria-label="Current profile status">
+                    <div className="console-top">
+                        <span>PLAYER STATUS</span>
+                        <span className="console-online">● ONLINE</span>
+                    </div>
+                    <div className="console-grid">
+                        <span><b>CLASS</b> ARCHITECT</span>
+                        <span><b>MODE</b> HANDS-ON</span>
+                        <span><b>BASE</b> AEL ENGINEERING</span>
+                    </div>
+                </div>
             </div>
             <figure className="portrait">
                 <img
