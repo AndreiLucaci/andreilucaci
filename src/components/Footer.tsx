@@ -18,7 +18,10 @@ export function Footer() {
                     LinkedIn ↗
                 </a>
                 <a href="https://www.linkedin.com/company/ael-engineering">
-                    AEL ↗
+                    AEL LinkedIn ↗
+                </a>
+                <a href="https://aelengineering.ro/">
+                    AEL Engineering ↗
                 </a>
             </div>
         </footer>
